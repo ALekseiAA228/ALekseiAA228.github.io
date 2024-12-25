@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Abik - Услуги</title>
+		<link rel="stylesheet" href="css/styles.css" />
+	</head>
+	<body>
+		<header class="header">
+			<div class="container">
+				<div class="logo">Abik</div>
+				<div class="header-right">
+					<div class="contact-info">
+						<a href="tel:+37253664448">+372 5366 4448</a>
+						<a href="mailto:info@abik.ee">info@abik.ee</a>
+					</div>
+					<div class="language-switcher">
+						<button id="lang-ru" class="lang-btn">RU</button>
+						<button id="lang-ee" class="lang-btn">EE</button>
+					</div>
+				</div>
+			</div>
+			<div class="slogan" data-translate="slogan">
+				Выполняем свою работу качественно, ответственно и добросовестно
+			</div>
+		</header>
+
+		<section class="services">
+			<div class="container">
+				<h2 data-translate="services">Наши Услуги</h2>
+				<div class="filter">
+					<button data-filter="all" class="active" data-translate="all">
+						Все
+					</button>
+					<button data-filter="seasonal" data-translate="seasonal">
+						Сезонные работы
+					</button>
+					<button data-filter="private" data-translate="private">
+						Частный клиент
+					</button>
+					<button data-filter="private2" data-translate="private2">
+						Квартирное Товарищество
+					</button>
+				</div>
+				<div class="services-list">
+					<!-- Услуги будут загружаться динамически через JavaScript -->
+				</div>
+			</div>
+		</section>
+
+		<section class="gallery" id="gallery">
+			<h2 data-translate="gallery">Галерея</h2>
+			<div class="gallery-grid"></div>
+		</section>
+
+		<section class="feedback">
+			<h2 data-translate="feedback">Обратная связь</h2>
+			<form id="feedback-form">
+				<input type="text" name="name" placeholder="Ваше имя" required />
+				<input type="email" name="email" placeholder="Ваш email" required />
+				<textarea
+					name="message"
+					placeholder="Ваше сообщение"
+					required
+				></textarea>
+				<button type="submit" data-translate="submit">Отправить</button>
+			</form>
+		</section>
+
+		<footer class="footer">
+			<div class="contact-info">
+				<a href="tel:+37253664448" data-translate="phone-footer"
+					>+372 5366 4448</a
+				>
+				<a href="mailto:info@abik.ee" data-translate="email-footer"
+					>info@abik.ee</a
+				>
+			</div>
+		</footer>
+
+		<script src="Scripts/script.js"></script>
+	</body>
+</html>

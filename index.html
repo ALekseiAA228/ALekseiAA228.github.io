@@ -1,173 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Сайт Портфолио</title>
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/media.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Сайт Портфолио</title>
+		<link rel="stylesheet" href="./css/main.css" />
+		<link rel="stylesheet" href="./css/media.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap"
+			rel="stylesheet"
+		/>
 
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-VGD0TKG4QR"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+		<!-- Google tag (gtag.js) -->
+		<script
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=G-VGD0TKG4QR"
+		></script>
+		<script>
+			window.dataLayer = window.dataLayer || []
+			function gtag() {
+				dataLayer.push(arguments)
+			}
+			gtag('js', new Date())
 
-  gtag('config', 'G-VGD0TKG4QR');
-</script>
+			gtag('config', 'G-VGD0TKG4QR')
+		</script>
 
-    <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-KQKNJH22');</script>
-<!-- End Google Tag Manager -->
+		<!-- Google Tag Manager -->
+		<script>
+			;(function (w, d, s, l, i) {
+				w[l] = w[l] || []
+				w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' })
+				var f = d.getElementsByTagName(s)[0],
+					j = d.createElement(s),
+					dl = l != 'dataLayer' ? '&l=' + l : ''
+				j.async = true
+				j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl
+				f.parentNode.insertBefore(j, f)
+			})(window, document, 'script', 'dataLayer', 'GTM-KQKNJH22')
+		</script>
+		<!-- End Google Tag Manager -->
+	</head>
+	<body>
+		<!-- Google Tag Manager (noscript) -->
+		<noscript
+			><iframe
+				src="https://www.googletagmanager.com/ns.html?id=GTM-KQKNJH22"
+				height="0"
+				width="0"
+				style="display: none; visibility: hidden"
+			></iframe
+		></noscript>
+		<!-- End Google Tag Manager (noscript) -->
+		<header class="header" id="header">
+			<h1 class="header-title">Алексей Александров</h1>
 
-</head>
-<body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KQKNJH22"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-    <header class="header" id="header">
+			<p class="header-subtitle">
+				Программистр Java, веб-разработчик, верстка сайтов
+			</p>
 
-     <h1 class="header-title">Алексей Александров</h1>
+			<a href="#portfolio" class="header-arrow">
+				<img src="./img/header/chevron-down-solid.svg" alt="Arrow" />
+			</a>
+		</header>
+		<main>
+			<section class="portfolio" id="portfolio">
+				<div class="container">
+					<h2 class="portfolio-header">Портфолио</h2>
+					<div class="portfolio-cards-wrapper">
+						<!------------>
+						<div class="card">
+							<a href="kinobaza.html" class="card-link">
+								<img class="card-img" src="./img/portfolio/site.jpg" alt="1" />
+								<h3 class="card-title">Кинобаза</h3>
+								<p>Верстка сайта</p>
+							</a>
+						</div>
+						<!---------->
+						<!------------>
+						<div class="card">
+							<a href="igrobaza.html" class="card-link">
+								<img class="card-img" src="./img/portfolio/site.jpg" alt=" 2" />
+								<h3 class="card-title">ИгроБаза</h3>
+								<p>Верстка сайта</p>
+							</a>
+						</div>
+						<!---------->
+						<!------------>
+						<div class="card">
+							<a href="index.html" class="card-link">
+								<img class="card-img" src="./img/portfolio/site.jpg" alt=" 3" />
+								<h3 class="card-title">мой сайт</h3>
+								<p>Верстка сайта</p>
+							</a>
+						</div>
+						<!---------->
+						<!------------>
+						<div class="card">
+							<a href="smeika/index.html" class="card-link">
+								<img class="card-img" src="./img/portfolio/site.jpg" alt=" 4" />
+								<h3 class="card-title">сайт змейка</h3>
+								<p>Верстка сайта</p>
+							</a>
+						</div>
+						<!---------->
+						<div class="card">
+							<a href="drums/index.html" class="card-link">
+								<img class="card-img" src="./img/portfolio/site.jpg" alt=" 4" />
+								<h3 class="card-title">сайт барабаны</h3>
+								<p>Верстка сайта</p>
+							</a>
+						</div>
+						<!---------->
+						<div class="card">
+							<a href="webapp/index.html" class="card-link">
+								<img class="card-img" src="./img/portfolio/site.jpg" alt=" 4" />
+								<h3 class="card-title">webapp</h3>
+								<p>Верстка сайта</p>
+							</a>
+						</div>
+						<div class="card">
+							<a href="abik/index.html" class="card-link">
+								<img class="card-img" src="./img/portfolio/site.jpg" alt=" 4" />
+								<h3 class="card-title">сайт визитка</h3>
+								<p>Верстка сайта</p>
+							</a>
+						</div>
+						<div class="card">
+							<a
+								href="https://github.com/ALekseiAA228/ReactMarvel"
+								class="card-link"
+							>
+								<img class="card-img" src="./img/portfolio/site.jpg" alt=" 4" />
+								<h3 class="card-title">сайт marvel</h3>
+								<p>Верстка сайта</p>
+							</a>
+						</div>
+						<div class="card">
+							<a href="https://github.com/ALekseiAA228/MVC" class="card-link">
+								<img class="card-img" src="./img/portfolio/site.jpg" alt=" 4" />
+								<h3 class="card-title">MVC</h3>
+								<p>Верстка сайта</p>
+							</a>
+						</div>
+						<div class="card">
+							<a href="https://github.com/ALekseiAA228/MVC2" class="card-link">
+								<img class="card-img" src="./img/portfolio/site.jpg" alt=" 4" />
+								<h3 class="card-title">MVC2</h3>
+								<p>Верстка сайта</p>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="container">
+				<div class="footer-row">
+					<div class="footer-copyright footer-col">
+						<div class="footer-copyright-name">Алексей Александров</div>
+						<p>HTML Верстка И Java разработка</p>
+					</div>
+					<div class="footer-icons footer-col">
+						<p>Мои профили в социальных сетях:</p>
+						<div class="footer-icons-row">
+							<a href="#">
+								<img src="./img/icons/vk.svg" alt="" />
+							</a>
+							<a href="#">
+								<img src="./img/icons/inst.svg" alt="" />
+							</a>
+							<a href="#">
+								<img src="./img/icons/facebook.svg" alt="" />
+							</a>
+							<a href="#">
+								<img src="./img/icons/twitter.svg" alt="" />
+							</a>
+							<a href="#">
+								<img src="./img/icons/github.svg" alt="" />
+							</a>
+						</div>
+					</div>
 
-     <p class="header-subtitle">Программистр Java, веб-разработчик, верстка сайтов</p>
-
-        <a href="#portfolio" class="header-arrow">
-
-            <img src="./img/header/chevron-down-solid.svg" alt="Arrow">
-
-        </a>
-    </header>
-    <main>
-        <section class="portfolio" id="portfolio">
-            <div class="container">
-                <h2 class="portfolio-header">Портфолио</h2>
-                    <div class="portfolio-cards-wrapper">
-                    <!------------>   
-                    <div class="card"> 
-                        <a href="kinobaza.html" class="card-link">
-                            <img class="card-img" src="./img/portfolio/site.jpg" alt="1">
-                            <h3 class="card-title">Кинобаза</h3> 
-                            <p>Верстка сайта</p>
-                        </a>
-                    </div>
-                    <!---------->
-                    <!------------>   
-                    <div class="card"> 
-                        <a href="igrobaza.html" class="card-link">
-                        <img class="card-img" src="./img/portfolio/site.jpg" alt=" 2">
-                        <h3 class="card-title">ИгроБаза</h3> 
-                        <p>Верстка сайта</p>   
-                    </a> 
-                    </div>
-                    <!---------->
-                    <!------------>   
-                    <div class="card"> 
-                        <a href="index.html" class="card-link">
-                        <img class="card-img" src="./img/portfolio/site.jpg" alt=" 3">
-                        <h3 class="card-title">мой сайт</h3> 
-                        <p>Верстка сайта</p> 
-                    </a>   
-                    </div>
-                    <!---------->
-                    <!------------>   
-                    <div class="card"> 
-                        <a href="smeika/index.html" class="card-link">
-                        <img class="card-img" src="./img/portfolio/site.jpg" alt=" 4">
-                        <h3 class="card-title">сайт змейка</h3> 
-                        <p>Верстка сайта</p> 
-                    </a>   
-                    </div>
-                    <!---------->
-                    <div class="card"> 
-                        <a href="drums/index.html" class="card-link">
-                        <img class="card-img" src="./img/portfolio/site.jpg" alt=" 4">
-                        <h3 class="card-title">сайт барабаны</h3> 
-                        <p>Верстка сайта</p> 
-                    </a>   
-                    </div>
-                    <!---------->
-                    <div class="card"> 
-                        <a href="webapp/index.html" class="card-link">
-                        <img class="card-img" src="./img/portfolio/site.jpg" alt=" 4">
-                        <h3 class="card-title">webapp</h3> 
-                        <p>Верстка сайта</p> 
-                    </a>   
-                    </div>
-                    <div class="card"> 
-                        <a href="https://github.com/ALekseiAA228/ReactMarvel" class="card-link">
-                        <img class="card-img" src="./img/portfolio/site.jpg" alt=" 4">
-                        <h3 class="card-title">сайт marvel</h3> 
-                        <p>Верстка сайта</p> 
-                    </a>   
-                    </div>
-                        <div class="card"> 
-                        <a href="https://github.com/ALekseiAA228/MVC" class="card-link">
-                        <img class="card-img" src="./img/portfolio/site.jpg" alt=" 4">
-                        <h3 class="card-title">MVC</h3> 
-                        <p>Верстка сайта</p> 
-                    </a>   
-                    </div>
-                        <div class="card"> 
-                        <a href="https://github.com/ALekseiAA228/MVC2" class="card-link">
-                        <img class="card-img" src="./img/portfolio/site.jpg" alt=" 4">
-                        <h3 class="card-title">MVC2</h3> 
-                        <p>Верстка сайта</p> 
-                    </a>   
-                    </div>
-            </div>
-            </div>
-        </section>
-    </main>
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-row">
-                <div class="footer-copyright footer-col">
-                    <div class="footer-copyright-name"> Алексей Александров</div>
-                        <p>HTML Верстка И Java разработка</p>
-                    </div>
-                        <div class="footer-icons footer-col">
-                            <p> Мои профили в социальных сетях:</p>
-                            <div class="footer-icons-row">
-                            <a href="#">
-                                <img src="./img/icons/vk.svg" alt="">
-                            </a>
-                            <a href="#">
-                                <img src="./img/icons/inst.svg" alt="">
-                            </a>
-                            <a href="#">
-                                <img src="./img/icons/facebook.svg" alt="">
-                            </a>
-                            <a href="#">
-                                <img src="./img/icons/twitter.svg" alt="">
-                            </a>
-                            <a href="#">
-                                <img src="./img/icons/github.svg" alt="">
-                            </a>
-                        </div>
-                    </div>
-                    
-                    <div class="footer-contacts footer-col">
-                        <a href="https://vk.me/menjavslomali" class="footer-button">
-                            Связаться Вконтакте
-                        </a>
-                        <p>напиши мне,чтобы заказать или узнать стоимость проeкта.</p>
-                    </div>
-            </div>
-        </div>
-    </footer>
-    <script src="libs/jquery-3.6.0.min.js"></script>
-    <script src="libs/jquery.vide.min.js"></script>
-    <script src="./js/main.js"></script>
-
-</body>
+					<div class="footer-contacts footer-col">
+						<a href="https://vk.me/menjavslomali" class="footer-button">
+							Связаться Вконтакте
+						</a>
+						<p>напиши мне,чтобы заказать или узнать стоимость проeкта.</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<script src="libs/jquery-3.6.0.min.js"></script>
+		<script src="libs/jquery.vide.min.js"></script>
+		<script src="./js/main.js"></script>
+	</body>
 </html>
